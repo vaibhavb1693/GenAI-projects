@@ -2,8 +2,8 @@ import warnings
 import os
 warnings.filterwarnings('ignore')
 os.environ['PIP_ROOT_USER_ACTION'] = 'ignore'
-#os.environ["OPENAI_API_KEY"] = 'xxxx'
-#os.environ["SERPER_API_KEY"] = 'xxxx'
+#os.environ["OPENAI_API_KEY"] = ''
+#os.environ["SERPER_API_KEY"] = ''
 
 from crewai import Agent, Task, Crew
 from crewai_tools import SerperDevTool
